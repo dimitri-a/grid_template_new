@@ -8,7 +8,7 @@ class App extends Component {
     let items =[1,2,3,4,5]
     return (
       <div className="App">
-      {items.map(i => <RowComponent></RowComponent>)}
+      {items.map(i => <RowComponent itemNr={i}></RowComponent>)}
        <button>Click here</button>
       </div>
     );
