@@ -5,9 +5,11 @@ import RowComponent from './RowComponent';
 
 class App extends Component {
   render() {
+    let items =[1,2,3,4,5]
     return (
       <div className="App">
-       <RowComponent></RowComponent>
+      {items.map(i => <RowComponent></RowComponent>)}
+       <button>Click here</button>
       </div>
     );
   }
