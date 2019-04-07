@@ -16,8 +16,14 @@ export const RightAlign = styled.div`
 `;
 
 export const Column1 = styled.div`grid-column: 1/2;`;
-export const Column2 = styled.div`grid-column: 2/3;`;
-export const Column3 = styled.div`grid-column: 3/4;`;
+export const Column2 = styled.div`
+	grid-column: 2/3;
+	text-align: right;
+`;
+export const Column3 = styled.div`
+	grid-column: 3/4;
+	text-align: right;
+`;
 export const Column4 = styled.div`grid-column: 4/5;`;
 export const ColumnSpan2 = styled.div`
 	grid-column: 2/4;

@@ -18,9 +18,8 @@ class App extends Component {
 		return (
 			<div className="App">
 			<Wrapper>	
-				<Column2Header>header 1 </Column2Header>
-				<Column3Header>header 2</Column3Header>	
-
+				<Column2>header 1 </Column2>
+				<Column3>header 2</Column3>	
 			</Wrapper>
 				{this.state.items.map((i) => <RowComponent itemNr={i} />)}
 				<button onClick={() => this.addRow()}>Click here</button>
