@@ -23,7 +23,6 @@ class App extends Component {
 			</Wrapper>
 				{this.state.items.map((i) => <RowComponent itemNr={i} />)}
 				<button onClick={() => this.addRow()}>Click here</button>
-		
 			</div>
 		);
 	}
