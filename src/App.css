@@ -4,6 +4,6 @@ body {
 }
 
 textarea, input, select {
-  width: 80%; /* extend the width of the grid item */
+  width: 100%; /* extend the width of the grid item */
   box-sizing: border-box; /* including padding / border in width */
 }
