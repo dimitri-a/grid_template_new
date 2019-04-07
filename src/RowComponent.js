@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
 display:grid
 grid-template-columns: 1fr 1fr 1fr 30px;
-grid-template-rows:25% 25% auto;
+grid-template-rows:25% 35% auto;
 justify-items: start;
 border: solid 1px 	#000000
 `;
