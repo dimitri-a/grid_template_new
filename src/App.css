@@ -1,0 +1,8 @@
+body {
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+textarea{
+    width: 300px;
+  }
