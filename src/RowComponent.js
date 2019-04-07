@@ -1,24 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-const Wrapper = styled.div`
-display:grid
-grid-template-columns: 1fr 1fr 1fr 30px;
-grid-template-rows:25% 35% auto;
-justify-items: start;
-border: solid 1px 	#000000
-`;
+import {Wrapper,Column1,Column2,Column3,Column4,ColumnSpan2} from './Styles'
 
-const Column1 = styled.div`grid-column: 1/2;`;
-const Column2 = styled.div`grid-column: 2/3;`;
-const Column3 = styled.div`grid-column: 3/4;`;
-const Column4 = styled.div`grid-column: 4/5;`;
-const ColumnSpan2 = styled.div`
-	grid-column: 2/4;
-	grid-row: row 2;
-`;
 
 const RowComponent = ({ itemNr }) => (
 	<Wrapper>
+       
 		<Column1>
 			<select>
 				<option>een</option>
