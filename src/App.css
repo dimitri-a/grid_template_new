@@ -3,7 +3,7 @@ body {
     max-width: 60%;
 }
 
-textarea{
-    width: 200%;
-    height: 120%
-  }
+textarea, input, select {
+  width: 80%; /* extend the width of the grid item */
+  box-sizing: border-box; /* including padding / border in width */
+}
