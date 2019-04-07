@@ -5,7 +5,7 @@ import {Wrapper,Column1,Column2,Column3,Column4,ColumnSpan2} from './Styles'
 
 const RowComponent = ({ itemNr }) => (
 	<Wrapper>
-       
+
 		<Column1>
 			<select>
 				<option>een</option>
