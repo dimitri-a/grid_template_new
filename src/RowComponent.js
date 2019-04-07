@@ -14,40 +14,30 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
 display:grid
 grid-template-columns: 1fr 1fr 1fr 30px;
-grid-template-rows: auto auto auto; 
+grid-template-rows:25% 25% auto;
 justify-items: start;
-
+border: solid 1px 	#000000
 `
 
 const Column1 = styled.div`
 grid-column: 1/2;
+
 `
 
 const Column2 = styled.div`
 grid-column: 2/3;
+
 `
 
 
 const Column3 = styled.div`
 grid-column: 3/4;
+
 `
 const Column4 = styled.div`
 grid-column: 4/5;
+
 `
-
-
-
-// const Column2 = styled.div`
-//     grid-column: col 2/3 ;
-// `
-// const Column3 = styled.div`
-//     grid-column: col 3 ;
-//     grid-row:row;
-// `
-// const Column4 = styled.div`
-//     grid-column: col 3 ;
-//     grid-row:row;
-// `
 
 const ColumnSpan2 = styled.div`
     grid-column: 2/4;
