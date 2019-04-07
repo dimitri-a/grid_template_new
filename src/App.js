@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import RowComponent from './RowComponent';
+import {Wrapper,Column1,Column2,Column3,Column4,ColumnSpan2} from './Styles'
+
 
 class App extends Component {
 	constructor(props) {
@@ -15,8 +17,13 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
+			<Wrapper>	
+				<Column1>header 1 </Column1>
+				<Column2>header 2</Column2>	
+			</Wrapper>
 				{this.state.items.map((i) => <RowComponent itemNr={i} />)}
 				<button onClick={() => this.addRow()}>Click here</button>
+		
 			</div>
 		);
 	}
