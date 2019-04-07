@@ -8,7 +8,6 @@ class App extends Component {
 		super(props);
 		this.state = { items: [ 1, 3, 4, 5 ] };
 	}
-
 	addRow = () => {
 		debugger;
 		this.state.items.push(5);
