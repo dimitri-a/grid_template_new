@@ -17,12 +17,19 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
+			<hr></hr>
 			<Wrapper>	
-				<Column2>header 1 </Column2>
-				<Column3>header 2</Column3>	
+				<Column1>adjust ebitda bold</Column1>
+				<Column2>$100000</Column2>
+				<Column3>$10000</Column3>
+				<Column1>adjusted ebitda(assessed) bold</Column1>
+				<Column2>-</Column2>
+				<Column3></Column3>
+				<Column1>adjusted ebitda(manual input) bold</Column1>
+				<Column2></Column2>
+				<Column3>todo inputgroyp</Column3>
 			</Wrapper>
-				{this.state.items.map((i) => <RowComponent itemNr={i} />)}
-				<button onClick={() => this.addRow()}>Click here</button>
+			
 			</div>
 		);
 	}

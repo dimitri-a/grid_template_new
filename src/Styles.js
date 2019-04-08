@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
 display:grid
 grid-template-columns: 1fr 1fr 1fr 30px;
 grid-template-rows:auto auto auto;
-border: solid 1px 	#000000
+/*border: solid 1px 	#000000*/
 grid-gap:10px;
 padding:5px
 
@@ -15,7 +15,7 @@ export const RightAlign = styled.div`
 	justify-content: end;
 `;
 
-export const Column1 = styled.div`grid-column: 1/2;`;
+export const Column1 = styled.div`grid-column: 1/2; font-weight:bold; text-align:right`;
 export const Column2 = styled.div`
 	grid-column: 2/3;
 	text-align: right;
